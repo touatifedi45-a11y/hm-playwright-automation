@@ -15,6 +15,18 @@ Projet d'automatisation de tests pour le site HM.com avec Playwright, TypeScript
 5. Ajout du produit taille M au panier
 6. Ajout d'un produit aux favoris
 
+🔍 **Note sur le scénario de recherche** :
+
+Pendant l'automatisation, j'ai constaté que le bouton de recherche sur le site HM a un comportement particulier - il n'apparaît pas systématiquement après le clic sur l'icône de recherche.
+
+Pour contourner ce problème et garantir la robustesse du test, j'ai opté pour une approche pragmatique : 
+**l'automatisation manuelle de la sélection du produit recherché**.
+
+Concrètement, après avoir tapé "Chemise Relaxed Fit en coton" dans la barre de recherche, j'ai automatisé le clic direct sur le produit souhaité dans les résultats, sans passer par le bouton de recherche. Cette approche :
+- Contourne le problème du bouton non fonctionnel
+- Garantit que le scénario principal (trouver et sélectionner le produit) est testé
+- Reste fidèle au comportement utilisateur réel
+
 ## 🚀 Installation et exécution
 
 ### Prérequis
