@@ -9,10 +9,15 @@ async function addToWishlist(page,) {
   
   // Chercher autre produit
   await page.getByRole('button', { name: 'Open navigation' }).click();
+  await page.waitForTimeout(2000);
   await page.getByRole('link', { name: 'Sport' }).click();
+  await page.waitForTimeout(2000);
   await page.locator('#sub-menu-wrapper').getByText('MEN', { exact: true }).click();
+  await page.waitForTimeout(2000);
   await page.getByRole('link', { name: 'Sport' }).click();
+  await page.waitForTimeout(2000);
   await page.getByRole('link', { name: 'Trousers & Joggers' }).click();
+  await page.waitForTimeout(2000);
   await page.getByRole('link', { name: 'Loose Fit Water-repellent cargo trousers Loose Fit Water-repellent cargo' }).click();
 
   // Ajouter aux favoris
