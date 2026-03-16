@@ -70,7 +70,6 @@ hm-playwright-automation/
 └── README.md               # Documentation
 \`\`\`
 
-## ⏱️ Délai
 **Repository** : [https://github.com/touatifedi45-a11y/hm-playwright-automation]
 ---
 **Auteur** : Fedi Touati
