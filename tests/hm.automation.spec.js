@@ -9,7 +9,7 @@ import { chromium } from 'playwright';
 })();
 
 const { selectCountry } = require('../steps/country.step.js');
-const { signUp } = require('../steps/account.steps.js');
+const { signUp } = require('../steps/signup.steps.js');
 const { logout } = require('../steps/logout.step.js');
 const { addToCart } = require('../steps/cart.step.js');
 const {addToWishlist} = require('../steps/wishlist.step.js')
